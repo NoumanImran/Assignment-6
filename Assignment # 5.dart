@@ -127,5 +127,49 @@ break;
 
 
 }
+  
+  print('Enter A Character');
+String? letter = stdin.readLineSync();
+
+switch(letter){
+
+case "a":
+case "A":
+{
+print('Answer is Vowel');
+break;
+}
+
+ case "e":
+ case "E":
+ {
+print('Answer is Vowel');
+break;
+}
+
+ case "i":
+ case "I":
+ {
+print('Answer is Vowel');
+break;
+}
+
+ case "o":
+ case "O":
+ {
+print('Answer is Vowel');
+break;
+}
+ case "u":
+ case "U":
+ {
+print('Answer is Vowel');
+break;
+}
+default:{
+  print('Answer is Consunant');
+}
+
+}
 
 }
