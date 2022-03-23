@@ -51,66 +51,9 @@ Enter A Number
 5
 Tuesday
 *
-
+  
+  
 //Program # 2 
-
-
-final result;
-
-print('Enter your first Number');
-double? num1 = double.parse(stdin.readLineSync()!);
-
-print('Enter A Second Number');
-double? num2 = double.parse(stdin.readLineSync()!);
-
-print('Enter A Operaotr');
-String? operator = stdin.readLineSync();
-
-switch(operator){
-
-  case "-":{
-result = num1 - num2;
-print('Answer is $result');
-break;
-}
-
- case "+":
- {
-result = num1 + num2;
-print('Answer is $result');
-break;
-}
-
- case "*":
- {
-result = num1 * num2;
-print('Answer is $result');
-break;
-}
-
- case "/":
- {
-result = num1 / num2;
-print('Answer is $result');
-break;
-}
-
-}
-}
-
-/*
-OUTPUT:
-Enter your first Number
-10
-Enter A Second Number
-10
-Enter A Operaotr
-+
-Answer is 20.0
-*/
-  
-  
-//Program # 3 
   
   
 print('Enter A Character');
@@ -164,7 +107,7 @@ Answer is Vowel
 */
 
 
-//Program # 4  
+//Program # 3  
 
 
   print('Enter A Floating Pount Number');
@@ -215,7 +158,7 @@ Enter A Floating Pount Number
 */
 
 
-//Program # 5  
+//Program # 4 
 
 
  double? charges;
@@ -272,7 +215,7 @@ Total charges are Rs. 120
 */
 
 
-//Program # 6  
+//Program # 5  
 
 
 print("Enter Your Choice");
@@ -316,7 +259,7 @@ The Corresponding Character is: 6
 */
 
 
-//Program # 7
+//Program # 6
 
 
   final result;
@@ -335,7 +278,7 @@ Pass
 */
 
 
-//Program # 8
+//Program # 7
 
   
   final result;
